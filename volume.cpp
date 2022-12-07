@@ -25,7 +25,8 @@ int main() {
     double totalVolume;
 
     // input
-    std::cout << "This program calculates the volume of a cylinder." << std::endl;
+    std::cout << "This program calculates the volume of a cylinder."
+    << std::endl;
     std::cout << "Enter length of radius (cm): ";
     std::cin >> strRadius;
     std::cout << "Enter length of height (cm): ";
@@ -40,7 +41,7 @@ int main() {
         std::cout << "Volume of a cylinder with a radius of " << radius <<
         " cm and a height of " << height << " cm is " << totalVolume << "cm³.";
     } catch (std::invalid_argument) {
-        std::cout << "Invalid Integer.";
+        std::cout << "Invalid Input.";
     }
     std::cout << std::endl;
 
